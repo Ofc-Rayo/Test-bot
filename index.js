@@ -37,17 +37,27 @@ const { chain } = lodash;
 const PORT = process.env.PORT || process.env.SERVER_PORT || 3000;
 
 let { say } = cfonts;
-console.log(chalk.magentaBright('\n ...............Iniciando................'));
-say('Bot', {
-  font: 'simple',
-  align: 'left',
-  gradient: ['green', 'white']
+
+console.log(chalk.magentaBright('\n ...............Iniciando Black................'));
+
+say('Goku-Black-Bot-MD', {
+  font: 'block',
+  align: 'center',
+  gradient: ['red', 'magenta']
 });
-say('developed by Deylin', {
+
+say('En desarrollo', {
+  font: 'console',
+  align: 'center',
+  colors: ['yellow', 'green']
+});
+
+say('developed by Ivan', {
   font: 'console',
   align: 'center',
   colors: ['cyan', 'magenta', 'yellow']
 });
+
 protoType();
 serialize();
 
